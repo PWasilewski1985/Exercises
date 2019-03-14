@@ -579,6 +579,6 @@ public class GmailTest {
     @AfterMethod
     public void closeApp()
     {
-        //driver.quit();
+        driver.quit();
     }
 }
